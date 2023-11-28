@@ -1,0 +1,51 @@
+/* paraghraf style */
+/* p{
+    background-color: blueviolet;
+    color:white;
+} */
+body p.bg-dark{
+    background-color: orangered;
+}
+p{
+    color:rgb(21, 4, 1);
+}
+#test{
+    color:red;
+}
+.style-text{
+    color: darkmagenta;
+}
+p.bg-dark{
+    background-color: yellow;
+}
+.style-text.bg-dark{
+    font-size: 30px;
+}
+.bg-dark{
+    background-color: black;
+}
+/* Вибирає всі елементи на сторінці */
+*{
+    text-decoration: underline;
+}
+ul{
+    background-color: red;
+}
+ul li{
+    color: white;
+}
+ul li:first-child{
+    background-color: darkgreen;
+}
+ul li:last-child{
+    background-color: rgb(3, 24, 3);
+}
+ul li:nth-child(2){
+    background-color: yellow;
+}
+/* .first{
+    background-color: darkgreen;
+}
+.last{
+    background-color: grey;
+} */
