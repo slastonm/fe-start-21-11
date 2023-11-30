@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    /* font-family: ; */
+}
+header{
+    background-color: yellow;
+    padding: 65px 0 60px 0;
+}
+.header-container{
+    width: 800px;
+    margin: 0 auto;
+}
+.logo,
+.social{
+    display: inline-block;
+    background-color: gray;
+    width: 390px;
+}
+.social{
+    text-align: right;
+}
+.main-section{
+    background: #FAC960;
+    padding: 110px 0;
+}
