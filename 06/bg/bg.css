@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.container{
+    width: 400px;
+    height: 800px;
+    border: 2px solid red;
+    margin: 0 auto;
+    background-image: url('img/avatar.png');
+    background-color: black;
+    /* background-image: url('img/avatar.png'), url('img/1.webp'); */
+    background-repeat: no-repeat;
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+    /* background-position: top 100px left 200px; */
+    /* background-position: top  center; */
+    background-position: center  center;
+    /* background-size: cover; */
+    /* background-size: contain; */
+    background-size: 400px 100px;
+    background-size: 50%;
+
+}
+.container:hover{
+    background-color: red;
+}
+
+.sprite{
+    width: 84px;
+    height: 84px;
+    background-image: url("img/sprite-icon-29.jpg");
+    background-position: top 0  left 0;
+}
+.sprite:hover{
+    background-position: top -85px left 0;
+}
+.sprite.disabled{
+    background-position: top -170px left 0;
+}
+.next{
+    background-position: top 0 left -168px;
+}
+.next:hover{
+    background-position: top -85px left -168px;
+}

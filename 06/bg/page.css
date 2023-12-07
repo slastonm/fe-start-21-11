@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    height: 100%;
+}
+.efect{
+    min-height: 100vh;
+    padding-top: 250px;
+    background-image: url('img/bg.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+header, section{
+    padding: 100px;
+    background-color: white;
+    margin-bottom: 200px;
+}

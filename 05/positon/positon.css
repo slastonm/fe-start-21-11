@@ -69,3 +69,10 @@ h1:hover{
 h1:hover span{
     color:white;
 }
+.photo a{
+    display: inline-block;
+    margin-left: 10px;
+}
+.photo a:last-child{
+    margin-left: 0;
+}
