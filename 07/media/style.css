@@ -1,0 +1,109 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+section{
+    padding: 100px 0;
+    background-color: red;
+}
+img{
+    display: none;
+}
+.wrapper{
+    width: 80%;
+    /* width: 1200px; */
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.left-block,
+.right-block{
+    width: 100%;
+    padding: 20px;
+    min-width: 250px;
+}
+.left-block{
+    background-color: blue;
+}
+.right-block{
+    background-color: yellow;
+}
+/* @media screen and (min-width:1600px) {
+    section{
+        background-color:orange;
+    } 
+    .left-block,
+    .right-block{
+        width: 50%;
+    }
+}
+@media (min-width:1800px){
+    section{
+        background-color: rgb(0, 157, 255);
+    } 
+} */
+button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+@media(max-width:1800px){
+    section{
+        background-color:rgb(14, 160, 228);
+    } 
+    img{
+        display: inline-block;
+    }
+}
+@media(max-width:1600px){
+    section{
+        background-color:rgb(8, 125, 12);
+    } 
+    img{
+        display: none;
+    }
+}
+
+@media screen and (min-width:350px) and (max-width:500px){
+    section{
+        background-color:rgb(232, 10, 202);
+        padding: 10px 0;
+    } 
+    .wrapper{
+        width: 90%;
+
+    }
+    img{
+        /* display: inline-block; */
+        display: block;
+
+    }
+}
+@media (600px<= width <= 800px){
+    section{
+        background-color:rgb(129, 120, 128);
+        padding: 50px 0;
+    } 
+    .wrapper{
+        width: 70%;
+
+    }
+}
+@media print{
+    section{
+        border: 20px solid black;
+    }
+}
+
+@media(max-aspect-ratio: 3/2){
+    section{
+        border: 20px solid black;
+    }  
+}
+@media(min-aspect-ratio: 3/2){
+    section{
+        border: 20px solid black;
+    }  
+}

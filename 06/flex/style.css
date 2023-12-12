@@ -21,6 +21,7 @@ body{
 .flex{
     display: flex;
     max-width: 1800px;
+    height: 500px;
     margin: 0 auto;
     background-color: wheat;
     /* flex-wrap: nowrap; */
@@ -30,26 +31,48 @@ body{
     /* justify-content: flex-end; */
     /* justify-content: center; */
     /* justify-content: space-between; */
-    justify-content: space-around;
+    /* justify-content: space-around; */
     /* flex-direction: row-reverse; */
     /* flex-direction: column; */
     /* flex-direction: column-reverse; */
     /* flex-flow: flex-direction + flex-wrap; */
     /* flex-flow: column wrap-reverse; */
+    /* align-items: stretch; */
+    /* align-items: flex-start; */
+    align-items: center;
+    /* align-items: flex-end; */
+    /* align-items: baseline; */
+
+    /* gap: 50px; */
+    /* row-gap: 100px; */
+    /* column-gap: 40px; */
 
 
 }
 .item{
-    width: 300px;
+    /* width: 100%; */
     padding: 10px;
     background-color: orange;
+    /* order: ; */
+    order: 0;
+    flex-grow: 1;
 }
 .item:nth-child(2){
     background-color: blue;
+    /* height: 200px; */
+    font-size: 40px;
+    align-self: stretch;
+    order: 5;
+    flex-grow: 4;
 }
 .item:nth-child(3){
     background-color: rgb(255, 0, 183);
+    /* height: 100px;   */
+    order: 2;
+    flex-grow: 2;
 }
 .item:nth-child(4){
     background-color: rgb(166, 255, 0);
+    align-self: flex-end;
+    order: 6;
 }
