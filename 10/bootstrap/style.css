@@ -1,0 +1,17 @@
+.my-custom{
+    margin-left: 500px;
+}
+.my-block{
+    background-color: pink;
+}
+@media(min-width:1600px){
+    .my-custom{
+        margin-left: 100px;
+    }
+}
+.row{
+    margin: 0;
+}
+.col-4{
+    /* так не робіть */
+}
